@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+}
+.box{
+  width: 300px;
+  height: 100px; 
+  margin: 50px;
+  overflow: scroll;
+  background-image: linear-gradient(to right, green, rgb(112, 31, 31), green, rgb(112, 31, 31), green, rgb(112, 31, 31), green, rgb(112, 31, 31));
+}
+
+.note1{
+  background-color: yellow;
+}
+.note2{
+  background-color: blueviolet;
+}
+.message{
+  background-color: navy;
+}

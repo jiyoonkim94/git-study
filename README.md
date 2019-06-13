@@ -101,3 +101,25 @@
  position: fixed; 이거는 스크롤 내려도 광고창 그대로 내려오는거 이거로 고정시키는거임! 
  @ 로 시작하는거 (무언가를 선언) EX) @keyframes 
  #animation 할때, 일일히 적지 않고 한칸 띄는 공백 가지고 해도됨  ex)animation: typing 3s 8s forwards;
+
+## 4일차 
+### Position 속성 
+- static (기본값)
+- relative (상대배치)
+- absolute (절대배치)
+- fixed (고정배치 - 뷰포트 기준)
+- sticky (relative + fixed 효과- 단 IE11 지원하지 않음/ 상대배치 + 고정배치)
+### 애니메이션 관련 속성 
+- animation 
+  + animation-name (필수)
+  + animation-duration (필수)
+  + animation-fill-mode 
+  + animation-delay 
+- transform 
+  + translate()
+  + scale()
+  + rotate()
+- transition
+  + transition-property
+  + transition-duration
+  + transition-delay  

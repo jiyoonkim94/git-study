@@ -97,3 +97,7 @@
 -background-attachment (배경 이미지 고정여부)
 -background-size (배경 이미지 크기)
 -background 속성(배경 관련 단축 속성)
+
+ position: fixed; 이거는 스크롤 내려도 광고창 그대로 내려오는거 이거로 고정시키는거임! 
+ @ 로 시작하는거 (무언가를 선언) EX) @keyframes 
+ #animation 할때, 일일히 적지 않고 한칸 띄는 공백 가지고 해도됨  ex)animation: typing 3s 8s forwards;
